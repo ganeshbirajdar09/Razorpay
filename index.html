@@ -21,7 +21,6 @@
       const rpbutton = document.getElementById("rzp-button1");
 
       rpbutton.addEventListener("click", async (event) => {
-        event.preventDefault();
         const response = await fetch("/order", {
           method: "POST",
           headers: {
